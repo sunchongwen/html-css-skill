@@ -1,4 +1,4 @@
-
+ 如果用了jquery 就先装jquery
 <template>
  <div>
    <button @click='diyfun'>Click</button>
