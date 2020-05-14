@@ -1,0 +1,29 @@
+
+<template>
+ <div>
+   <button @click='diyfun'>Click</button>
+ </div>
+</template>
+<script>
+import {myfun} from '../js/test.js' //注意路径
+export default {
+ data () {
+  return {
+  }
+ },
+ methods:{
+   diyfun:function(){
+     myfun();
+   }
+ }
+}
+</script>
+test.js
+-------------------------
+function myfun() {
+console.log('Success')
+}
+export { //很关键
+ myfun
+}
+---------------------------
