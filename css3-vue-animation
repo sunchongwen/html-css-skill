@@ -1,0 +1,29 @@
+App.vue
+<temlate>
+<div id="app">
+    <div class="ball"></div>
+
+    <router-view></router-view>
+  </div>
+</emlate>  
+  
+<style lang="scss">
+
+.ball{
+  z-index: 1000;
+  position: absolute;
+ //离文档流 放在所有元素之上
+
+ //动画
+  animation: bounce 10s infinite;
+  
+}
+//关键帧动画
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 200px, 0);
+  }
+}
