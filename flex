@@ -10,8 +10,8 @@ html,body {
             height: 100%;
             display: flex;
             flex-direction: row;/*这里可以不写，flex布局默认方向横向即row*/
-            justify-content: center;
-            align-items: center;
+            justify-content: center;//横轴 对齐
+            align-items: center;//竖轴 对齐
 }
 .container {
     display: flex ;       //可以有两种取值
