@@ -1,0 +1,12 @@
+自己写js 插件
+
+myPlugin.js
+function ClassName(container){
+  this.FunctionName = function(container){
+  }
+}
+
+import "myPlugin.js"
+var container =""
+var class = new ClassName();
+class.FunctionName(container);
