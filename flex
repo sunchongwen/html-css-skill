@@ -1,3 +1,12 @@
+container里面的元素居中 外部container
+html,body {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;/*这里可以不写，flex布局默认方向横向即row*/
+            justify-content: center;
+            align-items: center;
+}
 .container {
     display: flex ;       //可以有两种取值
      flex-direction: row | row-reverse | column | column-reverse;  //row水平排列
