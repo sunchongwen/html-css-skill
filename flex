@@ -1,5 +1,10 @@
 https://www.youtube.com/watch?v=fYq5PXgSsbE
 container里面的元素居中 外部container
+.container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;// 正常换行
+}
 html,body {
             width: 100%;
             height: 100%;
